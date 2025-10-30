@@ -1,0 +1,7 @@
+{
+  "name": "NatthawutApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
