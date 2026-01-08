@@ -1,2 +1,211 @@
-/* For information on how to create your own theme, please see:
-http://ionicframework.com/docs/theming/ */
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai:wght@100..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Platform-specific background */
+.ios .ion-page,
+.md .ion-page {
+    --background-color: #FFFFFF;
+}
+
+/* Ionic Theme Variables */
+:root {
+    --ion-color-primary: #ce228f;
+    --ion-color-primary-rgb: 206,34,143;
+    --ion-color-primary-contrast: #ffffff;
+    --ion-color-primary-shade: #b51e7e;
+    --ion-color-primary-tint: #d3389a;
+
+    --ion-color-secondary: #00ffcc;
+    --ion-color-secondary-rgb: 0,255,204;
+    --ion-color-secondary-contrast: #000000;
+    --ion-color-secondary-shade: #00e0b4;
+    --ion-color-secondary-tint: #1affd1;
+
+    --ion-color-tertiary: #412525;
+    --ion-color-tertiary-rgb: 65,37,37;
+    --ion-color-tertiary-contrast: #ffffff;
+    --ion-color-tertiary-shade: #392121;
+    --ion-color-tertiary-tint: #543b3b;
+
+    --ion-color-success: #1aff57;
+    --ion-color-success-rgb: 26,255,87;
+    --ion-color-success-contrast: #000000;
+    --ion-color-success-shade: #17e04d;
+    --ion-color-success-tint: #31ff68;
+
+    --ion-color-warning: #e17e2d;
+    --ion-color-warning-rgb: 225,126,45;
+    --ion-color-warning-contrast: #000000;
+    --ion-color-warning-shade: #c66f28;
+    --ion-color-warning-tint: #e48b42;
+
+    --ion-color-danger: #c5000f;
+    --ion-color-danger-rgb: 197,0,15;
+    --ion-color-danger-contrast: #ffffff;
+    --ion-color-danger-shade: #ad000d;
+    --ion-color-danger-tint: #cb1a27;
+
+    --ion-color-light: #ffffff;
+    --ion-color-light-rgb: 255,255,255;
+    --ion-color-light-contrast: #000000;
+    --ion-color-light-shade: #e0e0e0;
+    --ion-color-light-tint: #ffffff;
+
+    --ion-color-medium: #ffd6d6;
+    --ion-color-medium-rgb: 255,214,214;
+    --ion-color-medium-contrast: #000000;
+    --ion-color-medium-shade: #e0bcbc;
+    --ion-color-medium-tint: #ffdada;
+
+    --ion-color-dark: #884949;
+    --ion-color-dark-rgb: 136,73,73;
+    --ion-color-dark-contrast: #ffffff;
+    --ion-color-dark-shade: #784040;
+    --ion-color-dark-tint: #945b5b;
+
+    /* Background / text color for the app */
+    --ion-background-color: #ffffff;
+    --ion-text-color: #000000;
+}
+
+/* Global Page Settings */
+:root,
+ion-app,
+ion-content,
+body {
+    font-family: "Prompt", sans-serif;
+    background: var(--ion-background-color);
+    color: var(--ion-text-color);
+}
+
+/* Apply font to Ionic components */
+ion-title,
+ion-label,
+ion-button,
+ion-item,
+ion-input,
+ion-text,
+ion-card,
+ion-list,
+ion-badge,
+ion-select,
+ion-textarea {
+    font-family: "Prompt", "Noto Sans Thai", sans-serif !important;
+}
+
+/* Toolbar */
+ion-toolbar {
+    --background: var(--ion-color-primary);
+    --color: var(--ion-color-primary-contrast);
+    font-weight: 600;
+}
+
+ion-toolbar ion-title {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+/* Buttons */
+ion-button {
+    --background: var(--ion-color-primary);
+    --color: #ffffff;
+    border-radius: 12px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    transition: transform 0.15s ease, filter 0.3s ease;
+}
+
+ion-button:hover {
+    filter: brightness(1.15);
+    transform: translateY(-2px);
+}
+
+ion-button:active {
+    transform: scale(0.96);
+}
+
+ion-back-button {
+    color: #10ffeb !important;
+    --color-hover: var(--ion-color-secondary);
+}
+
+/* Searchbar */
+ion-searchbar {
+    --background: #f0e8df;
+    --color: #3a3a3a;
+    --placeholder-color: #8f7f6f;
+    border-radius: 10px;
+    margin: 6px;
+    font-family: "Prompt", "Noto Sans Thai", sans-serif;
+}
+
+/* List */
+ion-item {
+    --ion-item-background: #ebe4e4;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+ion-item:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+/* Book Cover (FIXED SIZE + CENTERED) */
+.book-cover {
+    width: 180px !important;        /* ขนาดเท่ากันทุกเล่ม */
+    height: 260px !important;       /* สูงเท่ากัน */
+    object-fit: cover !important;   /* ป้องกันรูปยืดหรือเบี้ยว */
+    display: block;
+    margin: 0 auto;                 /* จัดกลาง 100% */
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 16px;
+}
+
+/* Book title / text */
+ion-label h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #5b4636;
+}
+
+ion-label p {
+    font-size: 14px;
+    color: #6e655b;
+}
+
+/* Status Badge */
+ion-badge {
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    color: white;
+}
+
+ion-badge.available {
+    background: #28a745 !important;
+}
+
+ion-badge.borrowed {
+    background: #dc3545 !important;
+}
+
+/* Book Detail */
+.book-detail {
+    text-align: center;
+    padding: 20px;
+}
+
+.book-detail h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #5b4636;
+}
+
+.author,
+.price {
+    color: #5b4636;
+}

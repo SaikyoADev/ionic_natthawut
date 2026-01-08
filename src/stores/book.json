@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "เทคโนโลยีเครื่องมือ AI: คู่มือสำหรับ...",
+    "author": "JACK PK",
+    "price": "299.00 บาท",
+    "available_copies": 3,
+    "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqYzIvC7Pf5AhoYlu57N8bhsxMfWd0tpdH5A&s"
+  },
+  {
+    "id": 2,
+    "title": "การเขียนโปรแกรมด้วยภาษา GoLang",
+    "author": "สุพจน์ สง่าทอง,ปิยะ นากสงค์",
+    "price": "217.55฿",
+    "available_copies": 0,
+    "cover_url": "https://api.chulabook.com/images/pid-189346.JPG"
+  },
+  {
+    "id": 3,
+    "title": "คู่มือการเขียนโปรแกรมด้วยภาษา Python",
+    "author": "ศุภชัย สมพานิช",
+    "price": "265.50฿",
+    "available_copies": 5,
+    "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTv9WWiDDL5UNufoG8f4NVrbNIE3905Mo9XQ&s"
+  },
+  {
+    "id": 4,
+    "title": "One Piece Vol. 107",
+    "author": "Eiichiro Oda",
+    "price": "85฿",
+    "available_copies": 10,
+    "cover_url": "https://storage.naiin.com/system/application/bookstore/resource/product/202312/598405/1000267760_front_XXL.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Attack on Titan Vol. 34 (ตอนจบ)",
+    "author": "Hajime Isayama",
+    "price": "90฿",
+    "available_copies": 6,
+    "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5TLC7yJhCe4-vj9ExYxa_a13hjy7aQJMN5w&s"
+  },
+  {
+    "id": 6,
+    "title": "Demon Slayer: Kimetsu no Yaiba Vol. 23",
+    "author": "Koyoharu Gotouge",
+    "price": "95฿",
+    "available_copies": 8,
+    "cover_url": "https://bci.kinokuniya.com/jsp/images/book-img/97819/97819747/9781974723638.JPG"
+  },
+  {
+    "id": 7,
+    "title": "Naruto Vol. 72",
+    "author": "Masashi Kishimoto",
+    "price": "80฿",
+    "available_copies": 4,
+    "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdLmu9JtCtp4lic6Pj1acxDBurFlRpnxj1hA&s"
+  },
+  {
+    "id": 8,
+    "title": "Jujutsu Kaisen Vol. 25",
+    "author": "Gege Akutami",
+    "price": "90฿",
+    "available_copies": 2,
+    "cover_url": "https://m.media-amazon.com/images/I/81zEBr1+vEL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Spy x Family Vol. 12",
+    "author": "Tatsuya Endo",
+    "price": "85฿",
+    "available_copies": 7,
+    "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK3L6Z8lza8n0yO9NRa0WGtKtS0XKjlh7ilw&s"
+  },
+  {
+    "id": 10,
+    "title": "Chainsaw Man Vol. 16",
+    "author": "Tatsuki Fujimoto",
+    "price": "90฿",
+    "available_copies": 5,
+    "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIuwlXxtO2vmq3l4tfPmT-Nil9GFBYuR3xvQ&s"
+  }
+]

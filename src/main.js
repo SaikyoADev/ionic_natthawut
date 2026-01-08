@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router';
 
 import { IonicVue } from '@ionic/vue';
+ 
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/vue/css/core.css';
@@ -33,10 +34,20 @@ import '@ionic/vue/css/palettes/dark.system.css';
 
 /* Theme variables */
 import './theme/variables.css';
-
+import { addIcons } from 'ionicons';
+import { airplaneOutline } from 'ionicons/icons';
+import BaseLayout from './components/BaseLayout.vue';
+import store from './stores/store'
+addIcons({
+  'airplane': airplaneOutline
+});
+ 
 const app = createApp(App)
   .use(IonicVue)
+  .use(store)
   .use(router);
+
+app.component('base-layout',BaseLayout);
 
 router.isReady().then(() => {
   app.mount('#app');
